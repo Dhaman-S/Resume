@@ -1,0 +1,27 @@
+*{
+    background-color: black;
+    background-image: url(sea.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right;
+    color: white;
+}
+a{
+    color: goldenrod;
+}
+a:visited{
+    color: blue;
+}
+i{
+    color: red;
+}
+hr{
+    width: 65%;
+    margin-left: 0;
+    margin-right: auto;
+}
+p{
+    width: 65%;
+    text-align: left;
+}
