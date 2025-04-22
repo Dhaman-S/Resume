@@ -1,4 +1,4 @@
-*{
+* {
     background-color: black;
     background-image: url(sea.jpg);
     background-size: contain;
@@ -6,43 +6,74 @@
     background-repeat: no-repeat;
     background-position: right;
     color: white;
-    margin-left: .15cm;
+    margin-left: 0.15cm;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
-    font-size: .99em;
+    font-size: 0.99em;
 }
-h1{
-    color: goldenrod;
+
+select {
+    position: sticky;
+}
+
+h1 {
+    color: lightseagreen;
     text-align: center;
     font-size: 2.5em;
 }
-h2{
-    position: sticky;
-    top: 0;
-    padding: 0.25em;
-    font-size: 1.75em;
-}
-a{
+
+h2 {
     color: goldenrod;
+    position: sticky;
+    top: 25px;
+    padding: 0.1em;
+    font-size: 1.75em;
+    grid-area: header;
 }
-a:visited{
-    color: blue;
+
+a {
+    color: lime;
+    text-decoration: none;
 }
-i{
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: cadetblue;
+}
+
+i {
     color: red;
 }
-hr{
+
+hr {
     width: 65%;
     margin-left: 0;
     margin-right: auto;
 }
-p{
+
+p {
     width: 65%;
     text-align: left;
+    grid-area: txt;
 }
-img{
+
+img {
     width: 10%;
     height: auto;
+    grid-area: pic;
+}
+
+div {
+    background-color: black;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    padding-top: 5px;
 }
