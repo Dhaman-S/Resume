@@ -1,167 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Resume</title>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+        integrity="sha384-0o1j6c2g4e7a8b9">
     <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-  </head>
-  <body>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
+
+<body>
     <h1>Resume</h1>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
     <hr>
-    <info>
+    <info id="info">
         <h2>Info</h2>
         <b>Dhaman Sahoo</b>
         <p>
-            <i class="material-icons">phone</i>9535651028 &emsp; <i class="material-icons">mail</i><a href="mailto:dhaman.sahoo24@iimb.ac.in">dhaman.sahoo24@iimb.ac.in</a> &emsp; <i class="material-icons">attachment</i><a href="https://www.linkedin.com/in/dhaman-sahoo-414609361/">linkedin</a>
+            <i class="material-icons">phone</i>9535651028 &emsp; <i class="material-icons">mail</i><a
+                href="mailto:dhaman.sahoo24@iimb.ac.in">dhaman.sahoo24@iimb.ac.in</a> &emsp; <i
+                class="material-icons">attachment</i><a
+                href="https://www.linkedin.com/in/dhaman-sahoo-414609361/">linkedin</a>
         </p>
     </info>
     <hr>
-    <objective>
+    <objective id="objective">
         <h2>Objective</h2><img src="./objective.png" alt="bullseye">
-        <p>Motivated Computer Science student with strong problem-solving skills and hands-on experience in software development. Seeking an entry-level position to apply my technical skills and contribute to innovative projects.</p>
+        <p>Motivated Computer Science student with strong problem-solving skills and hands-on experience in software
+            development. Seeking an entry-level position to apply my technical skills and contribute to innovative
+            projects.</p>
     </objective>
     <hr>
-    <education>
+    <education id="education">
         <h2>Education</h2><img src="./education.png" alt="book">
         <p>
-            <b><a href="https://vidyashilpacademy.edu.in/">Vidyashilp Academy(VSA)</a></b> &mdash; 10th and 12th grade graduation. June 2011 - March 2024
-            <ul>Important Subjects
-                <li>Mathematics</li>
-                <li>Physics</li>
-                <li>Chemistry</li>
-                <li>Computer Science (10th)</li>
-                <li>Economics (12th)</li>
-            </ul>
-            <ul>Marks
-                <li>10th Marks: 93%</li>
-                <li>12th Marks: 95%</li>
-            </ul>
-            <br>
-            <b><a href="https://vitbhopal.ac.in/">Vellore Institute of Technology, Bhopal(VITB)</a></b> &mdash; 1st year of B.Tech, Computer Science with specialisation in AI and ML. August 2024 - now
-            <ul>Important Topics
-                <li>Fundamentals in AI and ML</li>
-                <li>Calculus</li>
-                <li>Engineering Physics</li>
-                <li>Electric Circuits and Systems</li>
-                <li>Introduction to Problem Solving and Programming</li>
-                <li>Object Oriented Programming with C++</li>
-                <li>Discrete Mathematics and Graph Theory</li>
-                <li>Introduction to Computational Physics</li>
-            </ul>
-            <br>
-            <b><a href="https://www.iimb.ac.in/">Indian Institute of Management, Bengaluru(IIMB)</a></b> &mdash; 1st year of BBA, Digital Business and Entrepreneurship. September 2024 - now
-            <ul>Important Topics
-                <li>Creative Mindset for Innovation and Imagination</li>
-                <li>Marketing Fundamentals</li>
-                <li>Explorations in Entrepreneurship</li>
-                <li>Financial Statements and Business Performance</li>
-                <li>Foundations of Business Communication</li>
-                <li>Business Statistics for Entrepreneurs</li>
-                <li>Venturing on a Budget</li>
-                <li>Indian Knowledge System</li>
-                <li>Persuasive Communication</li>
-                <li>Advanced Statistics for Business</li>
-                <li>Principles of Microeconomics</li>
-                <li>Website Development</li>
-                <li>Evolution of Business and Market</li>
-            </ul>
+            <b><a href="https://vidyashilpacademy.edu.in/">Vidyashilp Academy(VSA)</a></b> &mdash; 10th and 12th grade
+            graduation. June 2011 - March 2024
+        <ul>Important Subjects
+            <li>Mathematics</li>
+            <li>Physics</li>
+            <li>Chemistry</li>
+            <li>Computer Science (10th)</li>
+            <li>Economics (12th)</li>
+        </ul>
+        <ul>Marks
+            <li>10th Marks: 93%</li>
+            <li>12th Marks: 95%</li>
+        </ul>
+        <br>
+        <b><a href="https://vitbhopal.ac.in/">Vellore Institute of Technology, Bhopal(VITB)</a></b> &mdash; 1st year of
+        B.Tech, Computer Science with specialisation in AI and ML. August 2024 - now
+        <ul>Important Topics
+            <li>Fundamentals in AI and ML</li>
+            <li>Calculus</li>
+            <li>Engineering Physics</li>
+            <li>Electric Circuits and Systems</li>
+            <li>Introduction to Problem Solving and Programming</li>
+            <li>Object Oriented Programming with C++</li>
+            <li>Discrete Mathematics and Graph Theory</li>
+            <li>Introduction to Computational Physics</li>
+        </ul>
+        <br>
+        <b><a href="https://www.iimb.ac.in/">Indian Institute of Management, Bengaluru(IIMB)</a></b> &mdash; 1st year of
+        BBA, Digital Business and Entrepreneurship. September 2024 - now
+        <ul>Important Topics
+            <li>Creative Mindset for Innovation and Imagination</li>
+            <li>Marketing Fundamentals</li>
+            <li>Explorations in Entrepreneurship</li>
+            <li>Financial Statements and Business Performance</li>
+            <li>Foundations of Business Communication</li>
+            <li>Business Statistics for Entrepreneurs</li>
+            <li>Venturing on a Budget</li>
+            <li>Indian Knowledge System</li>
+            <li>Persuasive Communication</li>
+            <li>Advanced Statistics for Business</li>
+            <li>Principles of Microeconomics</li>
+            <li>Website Development</li>
+            <li>Evolution of Business and Market</li>
+        </ul>
         </p>
     </education>
     <hr>
-    <skills>
+    <skills id="skills">
         <h2>Skills</h2><img src="./skills.png" alt="gear">
         <p>
-            <ul>
-                <li><b>Languages: </b>C++, Python, Java</li>
-                <li><b>Web: </b>HTML, CSS</li>
-                <li><b>Tools: </b>Git, GitHub, VS Code</li>
-                <li><b>Soft Skills: </b>Team Collaboration, Time Management, Adaptability</li>
-            </ul>
+        <ul>
+            <li><b>Languages: </b>C++, Python, Java</li>
+            <li><b>Web: </b>HTML, CSS</li>
+            <li><b>Tools: </b>Git, GitHub, VS Code</li>
+            <li><b>Soft Skills: </b>Team Collaboration, Time Management, Adaptability</li>
+        </ul>
         </p>
     </skills>
     <hr>
-    <experience>
+    <experience id="experience">
         <h2>Experience</h2><img src="./experience.png" alt="clock">
         <p>
             <b>Rotary Club, Youth division</b>
             Platinum City, District ID: 86539
-            <ul>
-                <li>Leadership roles assigned: President, Treasurer, Sergeant at arms</li>
-                <li>Developed teamwork and leadership skills</li>
-                <li>Built fund raising and community work experience</li>
-            </ul>
-            <br>
-            <b>Business venture</b>
-            VIT, Bhopal
-            <ul>
-                <li>Started a business venture</li>
-                <li>Developed skills in marketing and finance</li>
-                <li>Enhanced communication and time management skills</li>
-            </ul>
+        <ul>
+            <li>Leadership roles assigned: President, Treasurer, Sergeant at arms</li>
+            <li>Developed teamwork and leadership skills</li>
+            <li>Built fund raising and community work experience</li>
+        </ul>
+        <br>
+        <b>Business venture</b>
+        VIT, Bhopal
+        <ul>
+            <li>Started a business venture</li>
+            <li>Developed skills in marketing and finance</li>
+            <li>Enhanced communication and time management skills</li>
+        </ul>
         </p>
     </experience>
     <hr>
-    <projects>
+    <projects id="projects">
         <h2>Projects</h2><img src="./project.png" alt="blueprint">
         <p>
             <b>Code development</b>
-            <ul>
-                <li>Developed a root finder using Python</li>
-                <li>Developed a simple student database using C++</li>
-                <li>Developed a simple Company accountant using Java</li>
-            </ul>
-            <b>Website Development</b>
-            <ul>
-                <li>Developed a personal resume using HTML and CSS</li>
-                <li>Written in VS code, hosted using GitHub</li>
-                <li>Used HTML and CSS to create a simple website</li>
-            </ul>
+        <ul>
+            <li>Developed a root finder using Python</li>
+            <li>Developed a simple student database using C++</li>
+            <li>Developed a simple Company accountant using Java</li>
+        </ul>
+        <b>Website Development</b>
+        <ul>
+            <li>Developed a personal resume using HTML and CSS</li>
+            <li>Written in VS code, hosted using GitHub</li>
+            <li>Used HTML and CSS to create a simple website</li>
+        </ul>
         </p>
     </projects>
     <hr>
-    <certificates>
+    <certificates id="certificates">
         <h2>Certificates</h2><img src="./certificate.png" alt="certificate">
         <p>
-            <ul>
-                <li><b>Python essentials</b> &mdash; VITyarthi</li>
-                <li><b>Fundamentals of AI and ML</b> &mdash; VITyarthi</li>
-                <li><b>CodeAtHome</b> &mdash; Coursera</li>
-                <li><b>Poetry</b> &mdash; Coursera</li>
-                <li><b>Finance management</b> &mdash; Coursera</li>
-            </ul>
+        <ul>
+            <li><b>Python essentials</b> &mdash; VITyarthi</li>
+            <li><b>Fundamentals of AI and ML</b> &mdash; VITyarthi</li>
+            <li><b>CodeAtHome</b> &mdash; Coursera</li>
+            <li><b>Poetry</b> &mdash; Coursera</li>
+            <li><b>Finance management</b> &mdash; Coursera</li>
+        </ul>
         </p>
     </certificates>
     <hr>
-    <achievements_and_awards>
+    <achievements_and_awards id="achievements_and_awards">
         <h2>Achievements and Awards</h2><img src="./trophy.png" alt="trophy">
         <p>
-            <ul>
-                <li>Participated in various inter-school basketball competitions</li>
-                <li>Selected for inter-state in World Scholars Cup</li>
-                <li>Won multiple awards in various fields, both academic and non-academic</li>
-            </ul>
+        <ul>
+            <li>Participated in various inter-school basketball competitions</li>
+            <li>Selected for inter-state in World Scholars Cup</li>
+            <li>Won multiple awards in various fields, both academic and non-academic</li>
+        </ul>
         </p>
     </achievements_and_awards>
     <hr>
-    <interests>
-        <h2>Interests</h2><img src="./hobby.png" alt="hobbies">
+    <interests id="interests">
+        <h2 class="header">Interests</h2><img src="./hobby.png" alt="hobbies">
         <p>
-            <ul>
-                <li>Reading books</li>
-                <li>Playing basketball</li>
-                <li>Coding</li>
-                <li>Listening to music</li>
-                <li>Writing</li>
-            </ul>
+        <ul>
+            <li>Reading books</li>
+            <li>Playing basketball</li>
+            <li>Coding</li>
+            <li>Listening to music</li>
+            <li>Writing</li>
+        </ul>
         </p>
     </interests>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
